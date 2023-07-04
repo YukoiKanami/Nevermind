@@ -415,6 +415,7 @@ background-color:#ffffff;
 
 button.google img {
   transform: translate(-40%, -40%);
+
 }
 
 .counter{
@@ -441,4 +442,5 @@ border-right: 10px solid #efefef;
 border-bottom: 5px solid transparent;
 
 }
+
 
