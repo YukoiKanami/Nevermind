@@ -389,3 +389,56 @@ background-color:#ffffff;
 
 }
 
+.repost {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icons {
+  display: inline-block;
+}
+
+.social-media-link {
+  display: inline-block;
+  position: relative;
+  width: 27px;
+  height: 27px;
+}
+
+.social-media-link img {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button.google img {
+  transform: translate(-40%, -40%);
+}
+
+.counter{
+
+  width: 40px; 
+height: 30px; 
+margin-left: 26px;
+background:#efefef;
+position: relative;
+border-radius: 0px;
+
+
+}
+
+.counter:before{
+  content: "";
+width: 0; 
+height: 0;
+position: absolute; 
+right: 100%; 
+top: calc(50% - 5px);
+border-top: 5px solid transparent;
+border-right: 10px solid #efefef;
+border-bottom: 5px solid transparent;
+
+}
+
