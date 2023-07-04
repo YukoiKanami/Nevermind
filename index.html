@@ -18,15 +18,15 @@
 <div class="container">
 <div class="images">
     <div class="slider">
-    <img src="images/gjjkdfeOJAo.jpg" class = "gallery-image" onmouseover="showImage(this)"onmouseout="hideImage()">
-    <img src="images/Oh1GIS8vZ3Y.jpg" class = "gallery-image" onmouseover="showImage(this)"onmouseout="hideImage()">
-    <img src="images/PvhH3BeAaNE.jpg" class = "gallery-image" onmouseover="showImage(this)"onmouseout="hideImage()">
+    <img src="images/gjjkdfeOJAo.jpg" class = "gallery-image" onmouseover="showImage(this)"onmouseout="hideImage(document.querySelector('.selected-image img'))">
+    <img src="images/Oh1GIS8vZ3Y.jpg" class = "gallery-image" onmouseover="showImage(this)"onmouseout="hideImage(document.querySelector('.selected-image img'))">
+    <img src="images/PvhH3BeAaNE.jpg" class = "gallery-image" onmouseover="showImage(this)"onmouseout="hideImage(document.querySelector('.selected-image img'))">
     <button class="down">V</button>
 
     </div>
 
     <div class="selected-image">
-        <img src="images/U7jCPwZy_QU.jpg" class = "selected-image" id = "selected-image">
+        <img src="images/U7jCPwZy_QU.jpg" class = "selected" id = "selected-image">
     </div>
 </div>
     <main class="main">

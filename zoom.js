@@ -4,8 +4,8 @@ function showImage(element){
 
 }
 
-function hideImage(){
-    var zoomedImage = document.getElementById('zoomed-image');
-    zoomedImage.src = '';
+function hideImage(selectedImage){
+   
+    selectedImage.src = 'images/U7jCPwZy_QU.jpg';
   
 }

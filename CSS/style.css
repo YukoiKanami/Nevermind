@@ -8,11 +8,18 @@ html, body {
 }
 a {
   text-decoration: none;
-  color: #006be5;
-  font-weight: 600;
-  font-size: 13px;
-  letter-spacing: 0.13px;
-  line-height: 24px;
+  /* Style for "Рубашки Me" */
+width: 339px;
+height: 13px;
+color: #006be5;
+font-family: Circe;
+font-size: 13px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: 0.1px;
+line-height: normal;
+text-align: left;
+
   
 }
 a:hover {
@@ -303,9 +310,9 @@ margin-bottom: 21px;
 
 .info-line a{
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 300;
   font-style: normal;
-  letter-spacing: normal;
+  letter-spacing: 0.1px;
   line-height: 30px;
   text-align: left;
   
@@ -427,7 +434,8 @@ background:#efefef;
 position: relative;
 border-radius: 0px;
 
-
+text-align: center;
+line-height: 30px;
 }
 
 .counter:before{
