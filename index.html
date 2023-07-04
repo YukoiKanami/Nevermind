@@ -5,26 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <Link rel="stylesheet" href = "CSS/style.css"/>
+    <script src="zoom.js"></script>
     <Link rel="stylesheet" href = "fonts/Circe-Bold/style.css"/>
     <Link rel="stylesheet" href = "fonts/Circe-Regular/"/>
     <Link rel="stylesheet" href = "fonts/Circe-ExtraBold/style.css"/>
     <Link rel="stylesheet" href = "fonts/Circe-Light/style.css"/>
     <Link rel="stylesheet" href = "fonts/Geometria-Medium/"/>
+   
     <title>Practica Shvedova BI-21</title>
 </head>
 <body>
 <div class="container">
 <div class="images">
     <div class="slider">
-    <img src="images/gjjkdfeOJAo.jpg" alt="">
-    <img src="images/Oh1GIS8vZ3Y.jpg" alt="">
-    <img src="images/PvhH3BeAaNE.jpg" alt="">
+    <img src="images/gjjkdfeOJAo.jpg" class = "gallery-image" onmouseover="showImage(this)"onmouseout="hideImage()">
+    <img src="images/Oh1GIS8vZ3Y.jpg" class = "gallery-image" onmouseover="showImage(this)"onmouseout="hideImage()">
+    <img src="images/PvhH3BeAaNE.jpg" class = "gallery-image" onmouseover="showImage(this)"onmouseout="hideImage()">
     <button class="down">V</button>
 
     </div>
 
     <div class="selected-image">
-        <img src="images/U7jCPwZy_QU.jpg" alt="">
+        <img src="images/U7jCPwZy_QU.jpg" class = "selected-image" id = "selected-image">
     </div>
 </div>
     <main class="main">
